@@ -49,8 +49,8 @@ H2O.ai Kurulumu ve Kullanımı
 H2O.ai platformu, Python veya R üzerinden kullanılabilir. Python için h2o kütüphanesini pip install h2o komutu ile kurabilirsiniz.
 H2O.ai dokümantasyonuna ve örneklerine H2O.ai Documentation adresinden ulaşabilirsiniz.
 Jupyter Notebook ortamında H2O ile nasıl çalışılacağına dair örnekler için H2O Python Tutorials faydalı olacaktır.
-Değerlendirme Kriterleri
 
+**Değerlendirme Kriterleri**
 **Kriter	Ağırlık**
 Veri seti seçimi ve tanımlama	%10
 Keşifsel veri analizi (EDA) kalitesi	%30
