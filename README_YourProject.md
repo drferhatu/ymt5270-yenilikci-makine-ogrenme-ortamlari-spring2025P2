@@ -1,4 +1,4 @@
-# YMT5270 Ara Sınav Projesi: Orange ile Veri Analizi ve Makine Öğrenmesi
+# YMT5270 Final Sınav Projesi: H2O ile Veri Analizi ve Makine Öğrenmesi
 
 ## Öğrenci Bilgileri
 - **Ad Soyad**: 
@@ -38,15 +38,7 @@
 > - *Diğer ön işleme adımları*
 
 ### Görselleştirmeler
-> *Orange ile yaptığınız veri görselleştirmelerini buraya ekleyiniz. Her görselleştirme için kısa bir açıklama yazınız. Görselleri bu repoya yükleyip, markdown içinde referans verebilirsiniz.*
-
-#### Görselleştirme 1: [Görselleştirme Adı]
-![Görselleştirme 1 Açıklaması](goruntuler/gorselleştirme1.png)
-> *Bu görselleştirme ile ilgili yorumunuz ve çıkarımlarınız.*
-
-#### Görselleştirme 2: [Görselleştirme Adı]
-![Görselleştirme 2 Açıklaması](goruntuler/gorselleştirme2.png)
-> *Bu görselleştirme ile ilgili yorumunuz ve çıkarımlarınız.*
+> *Her görselleştirme için kısa bir açıklama yazınız. Görselleri bu repoya yükleyip, markdown içinde referans verebilirsiniz.*
 
 ### Öznitelik İlişkileri
 > *Öznitelikler arasındaki ilişkileri analiz ediniz. Korelasyon matrisi, scatter plot matrisi gibi görsellerle destekleyiniz.*
@@ -71,11 +63,6 @@
 ### Sonuçların Yorumlanması
 > *Elde ettiğiniz sonuçları detaylı bir şekilde yorumlayınız. Modelin güçlü ve zayıf yönleri nelerdir? Başka hangi modeller denenebilirdi?*
 
-## Orange İş Akışı
-> *Orange ile oluşturduğunuz iş akışı görselini buraya ekleyiniz. İş akışınızın adımlarını kısaca açıklayınız.*
-
-![Orange İş Akışı](goruntuler/is_akisi.png)
-
 ## Sonuç ve Öneriler
 > *Projenizin genel bir değerlendirmesini yapınız. Elde ettiğiniz sonuçlar hakkında çıkarımlarınızı ve gelecek çalışmalar için önerilerinizi yazınız.*
 
@@ -87,10 +74,8 @@
 3. ...
 
 ## Ekler
-### Orange Proje Dosyası
-> *Orange proje dosyanızı (.ows) bu repoya yükleyiniz ve buradan referans veriniz.*
-> 
-> [Proje_Dosyasi.ows](proje_dosyasi.ows)
+### ipynb Proje Dosyası
+> * proje dosyanızı (.ipynb) bu repoya yükleyiniz ve buradan referans veriniz.*
 
 ### Veri Seti Dosyası veya Bağlantısı
 > *Kullandığınız veri setini bu repoya yükleyebilir veya bağlantısını burada paylaşabilirsiniz.*
