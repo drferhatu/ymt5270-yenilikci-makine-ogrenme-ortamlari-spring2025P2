@@ -1,91 +1,74 @@
 # YMT5270 - Yenilikçi Makine Öğrenme Ortamları
-## Ara Sınav Projesi
+## Final Sınavı Projesi
 
 ### Genel Bakış
+Bu ödev, YMT5270 - Yenilikçi Makine Öğrenme Ortamları dersi kapsamında verilen final projesidir. Bu projede, H2O.ai platformunu kullanarak açık erişimli bir veri seti üzerinden kapsamlı bir veri analizi ve makine öğrenmesi uygulaması geliştirmeniz beklenmektedir. Odak noktası, bir sınıflandırma veya regresyon problemi çözmek ve detaylı keşifsel veri analizi yapmaktır.
 
-Bu ödev, YMT5270 - Yenilikçi Makine Öğrenme Ortamları dersi kapsamında verilen ara sınav projesidir. Bu projede, kod yazmadan görsel programlama aracı olan [Orange Data Mining](https://orangedatamining.com/) platformunu kullanarak veri analizi ve makine öğrenmesi uygulamaları geliştirmeniz beklenmektedir.
-
-### Proje Hedefleri
-
+**Proje Hedefleri**
 Bu projenin ana hedefleri:
 
-1. Orange Data Mining platformunu etkili bir şekilde kullanabilme becerisi kazanmak
-2. Keşifsel Veri Analizi (EDA) tekniklerini uygulamak
-3. Seçilen veri setine uygun makine öğrenmesi yöntemlerini uygulamak
-4. Veri görselleştirme ve sonuçları yorumlama becerilerini geliştirmek
-
-### Gereksinimler
+H2O.ai platformunu etkili bir şekilde kullanabilme becerisi kazanmak.
+Keşifsel Veri Analizi (EDA) tekniklerini uygulamak.
+Seçilen veri setine uygun sınıflandırma veya regresyon makine öğrenmesi modellerini uygulamak.
+Model performansını değerlendirme, sonuçları yorumlama ve elde edilen içgörüleri sunma becerilerini geliştirmek.
+Gereksinimler
 
 Projeyi tamamlamak için aşağıdaki gereksinimleri yerine getirmeniz gerekmektedir:
 
-1. **Veri Seti Seçimi**: 
-   - [Kaggle](https://www.kaggle.com/datasets), [UCI Machine Learning Repository](https://archive.ics.uci.edu/), [Google Dataset Search](https://datasetsearch.research.google.com/) gibi kaynaklardan bir veri seti seçilmelidir.
-   - Veri seti tercihen en az 5 öznitelik ve 100 örnek içermelidir.
-   - Veri setinin kaynağı ve lisans bilgileri belirtilmelidir.
+**Veri Seti Seçimi:**
+Kaggle, UCI Machine Learning Repository, Google Dataset Search gibi açık erişimli kaynaklardan bir veri seti seçilmelidir.
+Veri seti tercihen en az 5 öznitelik ve 100 örnek içermelidir.
+Veri setinin kaynağı ve lisans bilgileri (.ipynb dosyasında) belirtilmelidir.
 
-2. **Keşifsel Veri Analizi (EDA)**:
-   - Veri seti içeriğinin tanımlanması
-   - Temel istatistiklerin hesaplanması
-   - Eksik verilerin tespit edilmesi ve işlenmesi
-   - Aykırı değerlerin belirlenmesi
-   - Öznitelikler arasındaki ilişkilerin incelenmesi
-   - Uygun görselleştirmelerin yapılması (histogramlar, kutu grafikleri, dağılım grafikleri vb.)
+**Keşifsel Veri Analizi (EDA):**
+H2O.ai'nin veri keşfi yetenekleri veya Python/R kütüphaneleri (Pandas, Matplotlib, Seaborn vb.) kullanılarak detaylı EDA yapılmalıdır.
+Veri seti içeriğinin tanımlanması.
+Temel istatistiklerin hesaplanması.
+Eksik verilerin tespiti ve işlenmesi (H2O'nun bu konudaki yetenekleri de incelenebilir).
+Aykırı değerlerin belirlenmesi.
+Öznitelikler arasındaki ilişkilerin incelenmesi.
+Uygun görselleştirmelerin yapılması (histogramlar, kutu grafikleri, dağılım grafikleri vb.).
+Makine Öğrenmesi Uygulaması:
 
-3. **Makine Öğrenmesi Uygulaması**:
-   - Veri setinize uygun olarak aşağıdakilerden **BİRİNİ** seçip uygulayınız:
-     - **Sınıflandırma**: Hedef değişkeni kategorik ise
-     - **Regresyon**: Hedef değişkeni sayısal ise
-     - **Kümeleme**: Gözetimsiz öğrenme yaklaşımı kullanmak istiyorsanız
+**H2O.ai platformunda veri setinize uygun olarak aşağıdakilerden BİRİNİ seçip uygulayınız:**
+Sınıflandırma: Hedef değişkeniniz kategorik ise.
+Regresyon: Hedef değişkeniniz sayısal ise.
+H2O.ai'nin otomatik makine öğrenmesi (AutoML) özelliğini kullanarak birden fazla model denenebilir ve en iyi performans gösteren model seçilebilir.
+Model eğitimi, doğrulama ve test süreçleri açıkça gösterilmelidir.
 
-4. **Değerlendirme ve Yorumlama**:
-   - Kullanılan modellerin performansının değerlendirilmesi
-   - Sonuçların yorumlanması ve önerilerin sunulması
+**Değerlendirme ve Yorumlama:**
+Kullanılan modellerin performansının (metrikler: accuracy, precision, recall, F1-score, RMSE, MAE vb.) değerlendirilmesi ve karşılaştırılması.
+Elde edilen sonuçların yorumlanması, iş içgörülerinin sunulması ve gelecekteki çalışmalar için önerilerde bulunulması.
 
-### Teslim Edilecek Dosyalar
+**Teslim Edilecek Dosyalar**
+Projeyi tamamladıktan sonra, GitHub Classroom üzerinden oluşturulan bu depoya sadece bir adet Jupyter Notebook (.ipynb) dosyası yükleyiniz.
 
-1. Doldurulmuş `ReadMe_YourProject.md` dosyası (şablonu bu repoda bulabilirsiniz)
-2. Orange proje dosyanız (.ows uzantılı)
-3. Kullandığınız veri seti veya veri setinin erişim bağlantısı
+proje_final.ipynb (veya benzer bir isimde): Bu dosya, tüm veri keşfi, veri ön işleme, H2O.ai model eğitimi, değerlendirme ve yorumlama adımlarını içeren ana çalışmanız olacaktır. Notebook'un başında veri seti bilgileri, projenin amacı ve kullanılan kütüphaneler açıkça belirtilmelidir.
+H2O.ai Kurulumu ve Kullanımı
 
-### Orange Data Mining Kurulumu ve Kullanımı
+H2O.ai platformu, Python veya R üzerinden kullanılabilir. Python için h2o kütüphanesini pip install h2o komutu ile kurabilirsiniz.
+H2O.ai dokümantasyonuna ve örneklerine H2O.ai Documentation adresinden ulaşabilirsiniz.
+Jupyter Notebook ortamında H2O ile nasıl çalışılacağına dair örnekler için H2O Python Tutorials faydalı olacaktır.
+Değerlendirme Kriterleri
 
-1. Orange Data Mining platformunu [resmi web sitesinden](https://orangedatamining.com/download/) indirip kurabilirsiniz.
-2. Temel kullanım için [Orange Video Eğitimleri](https://www.youtube.com/c/OrangeDataMining) izlenebilir.
-3. Ayrıca [Orange Dokümantasyonu](https://orangedatamining.com/docs/) detaylı bilgi için faydalı olacaktır.
+**Kriter	Ağırlık**
+Veri seti seçimi ve tanımlama	%10
+Keşifsel veri analizi (EDA) kalitesi	%30
+Makine öğrenmesi uygulaması (H2O)	%30
+Sonuçların yorumlanması	%20
+.ipynb dosyasının kalitesi ve açıklığı	%10
 
-### Örnek İş Akışı
+**Önemli Tarihler**
+Proje Duyurusu: 11 Haziran 2025
+Teslim Tarihi: 15 Temmuz 2025, 23:59
 
-Aşağıda basit bir örnek iş akışı gösterilmiştir:
+**Akademik Dürüstlük ve Etik Beyanı**
+Bu ödev bireysel bir çalışmadır. Başkalarının çalışmalarını kendinizinmiş gibi sunmak akademik etik kurallarına aykırıdır. Yararlandığınız tüm kaynakları ve kod parçacıklarını (.ipynb dosyası içinde) uygun şekilde belirtmeniz gerekmektedir.
 
-![Örnek Orange İş Akışı](img/example_workflow.png)
-
-Repodaki `example` klasöründe örnek bir Orange iş akışı dosyası bulabilirsiniz. 
-- Lütfen kendi proje iş akışı dosyanızı `project` klasörüne yükleyiniz. 
-
-### Değerlendirme Kriterleri
-
-| Kriter | Ağırlık |
-|--------|---------|
-| Veri seti seçimi ve tanımlama | %15 |
-| Keşifsel veri analizi (EDA) kalitesi | %25 |
-| Makine öğrenmesi uygulaması | %30 |
-| Sonuçların yorumlanması | %20 |
-| Dokümantasyon ve rapor kalitesi | %10 |
-
-### Önemli Tarihler
-
-- **Proje Duyurusu**: 20 Nisan 2025
-- **Teslim Tarihi**: 15 Mayıs 2025, 23:59
-
-### Akademik Dürüstlük ve Etik Beyanı
-
-Bu ödev bireysel bir çalışmadır. Başkalarının çalışmalarını kendinizinmiş gibi sunmak akademik etik kurallarına aykırıdır. 
-Yararlandığınız tüm kaynakları uygun şekilde belirtmeniz gerekmektedir.
-
-### İletişim
-
+**İletişim**
 Sorularınız için: fucar@firat.edu.tr
 
 ---
 
-**Not**: Bu repo, GitHub Classroom üzerinden assignment ile oluşturulmuştur. Projenizi tamamladıktan sonra GitHub Classroom assignment submit edilmelidir.
+Not: Bu repo, GitHub Classroom üzerinden assignment ile oluşturulmuştur. Projenizi tamamladıktan sonra GitHub Classroom assignment submit edilmelidir.
+
