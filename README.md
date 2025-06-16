@@ -11,7 +11,8 @@ H2O.ai platformunu etkili bir şekilde kullanabilme becerisi kazanmak.
 Keşifsel Veri Analizi (EDA) tekniklerini uygulamak.
 Seçilen veri setine uygun sınıflandırma veya regresyon makine öğrenmesi modellerini uygulamak.
 Model performansını değerlendirme, sonuçları yorumlama ve elde edilen içgörüleri sunma becerilerini geliştirmek.
-Gereksinimler
+
+**Gereksinimler**
 
 Projeyi tamamlamak için aşağıdaki gereksinimleri yerine getirmeniz gerekmektedir:
 
